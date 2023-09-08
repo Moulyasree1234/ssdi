@@ -1,0 +1,35 @@
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-x: scroll;
+    padding: 10px;
+}
+
+.box {
+    width: 100px;
+    height: 150px;
+    border-left: 10px dotted #D0D0FF;
+    background-color: #eeeff2;
+    margin-right: 10px;
+    text-align:left; /* Align text to the left */
+    padding: 10px; 
+}
+.box:last-child {
+position: absolute;
+bottom: 10px;
+right: 10px;
+}
+
+#boxA:hover, #boxB:hover, #boxC:hover, #boxD:hover, #boxE:hover {
+background-color: yellow;
+color: goldenrod;
+}
